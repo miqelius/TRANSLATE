@@ -17,8 +17,7 @@ from google.genai import types as gemini_types
 
 load_dotenv()
 
-# ✅ შენი ტელეგრამის ტოკენი მყარად ჩასმულია
-BOT_TOKEN = "8990693349:AAFqtQk3QoYmWosMTr2FgzFfUv8IKzD_MSI"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
